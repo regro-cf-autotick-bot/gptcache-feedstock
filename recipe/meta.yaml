@@ -1,5 +1,5 @@
 {% set name = "gptcache" %}
-{% set version = "0.1.18" %}
+{% set version = "0.1.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gptcache-{{ version }}.tar.gz
-  sha256: 86a80865d72822f202e824f6ee8b1fa716bd3f592e9d14faa8cdf30d7cf642aa
+  sha256: 6d7cbc4105354575385fec0efc18a6e5d4262e290c6b7b0d000ff741a82799de
 
 build:
   noarch: python
